@@ -1,2 +1,2 @@
-# learningJS-Beginner-to-Expert-Level
+# learning-JS-Beginner-to-Expert-Level
  
