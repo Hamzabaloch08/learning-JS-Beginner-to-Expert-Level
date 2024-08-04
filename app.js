@@ -52,6 +52,15 @@
 //     document.write(arr[i])
 // }
 
+// let userInput = +prompt("which table you want")
+// let userInput2 = +prompt("1 till..?")
+// for (let i = 1; i <= userInput2; i++) {
+//     document.write(userInput, " x ", i, " = ", i * userInput, "<br>")
+// }
+
+
+
+
 
 
 
