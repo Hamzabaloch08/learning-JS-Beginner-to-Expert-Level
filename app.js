@@ -59,7 +59,21 @@
 // }
 
 
+// let userInput = prompt("Enter city name of Pakistan")
+// let cityNames = ["karachi", "lahore", "islamabad",
+// "quetta", "peshawer","hyderabad", "gwadar", "hub"]
+// let match = false
 
+// for (i = 0; i < cityNames.length; i++) {
+//     if ( userInput.toLowerCase() == cityNames[i]) {
+//         match = true
+//         alert("City found")
+//         break
+//     }
+// }
+// if (match == false) {
+//     alert("City Not Found")
+// }
 
 
 
