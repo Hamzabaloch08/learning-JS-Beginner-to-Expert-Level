@@ -75,9 +75,15 @@
 //     alert("City Not Found")
 // }
 
-
-
 // nested loop
 
+let num = ["Front-End","Back-End","Full-stack",]
+let num2 = ["Development","Developer"]
+
+for (let i = 0; i < num.length; i++) {
+    for (let j = 0; j < num2.length; j++) {
+        document.write(num[i] , " " , num2[j],"<br>")
+    }
+}
 
 
