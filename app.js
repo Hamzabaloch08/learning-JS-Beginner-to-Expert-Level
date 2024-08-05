@@ -75,7 +75,7 @@
 //     alert("City Not Found")
 // }
 
-// nested loop
+                                                                       // nested loop
 
 let num = ["Front-End","Back-End","Full-stack",]
 let num2 = ["Development","Developer"]
