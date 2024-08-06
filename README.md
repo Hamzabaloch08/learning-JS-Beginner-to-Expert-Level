@@ -1,8 +1,3 @@
-// README.md content as a JavaScript template literal
-
-const README = `
-# Learning JavaScript: Beginner to Expert Level
-
 Welcome to the "Learning JavaScript: Beginner to Expert Level" project! This repository is designed to guide you from the basics of JavaScript all the way to advanced concepts. Whether you're a complete beginner or looking to refine your skills, this project will help you on your journey to becoming a JavaScript expert.
 
 ## Table of Contents
@@ -17,28 +12,6 @@ Welcome to the "Learning JavaScript: Beginner to Expert Level" project! This rep
 ## Introduction
 
 JavaScript is a versatile programming language used for both client-side and server-side development. This project covers a comprehensive curriculum to help you understand JavaScript fundamentals, advanced features, and best practices.
-
-## Getting Started
-
-To get started with this learning path, follow these steps:
-
-1. **Clone the Repository:**
-
-   \`\`\`bash
-   git clone https://github.com/yourusername/learning-js-beginner-to-expert.git
-   \`\`\`
-
-2. **Navigate to the Project Directory:**
-
-   \`\`\`bash
-   cd learning-js-beginner-to-expert
-   \`\`\`
-
-3. **Explore the Course Outline:**
-
-   Review the course outline below to get an overview of the topics covered.
-
-## Course Outline
 
 ### Beginner Level
 
@@ -127,9 +100,4 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Happy learning and coding!
-`;
-
-console.log(README);
 
