@@ -95,27 +95,11 @@
 
 
 
-
-                                                                       // method of arrays
+// method of arrays
 
 // .toLowerCase()
 
-// let userInput = prompt("Enter city name of Pakistan")
-// let cityNames = ["karachi", "lahore", "islamabad",
-// "quetta", "peshawer","hyderabad", "gwadar", "hub"]
-// let match = false
+// let userInput = prompt("conver anything into lowercase")
+// document.write(userInput.toLowerCase())
 
-// for (i = 0; i < cityNames.length; i++) {
-//     if ( userInput.toLowerCase() == cityNames[i]) {
-//         match = true
-//         alert("City found")
-//         break
-//     }
-// }
-// if (match == false) {
-//     alert("City Not Found")
-// }
-
-
-// .toUpperCase()
 
