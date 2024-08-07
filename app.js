@@ -101,5 +101,12 @@
 
 // let userInput = prompt("conver anything into lowercase")
 // document.write(userInput.toLowerCase())
+// The toLowerCase() method of String values returns this string converted to lower case.
 
+
+// .toUpperCase()
+
+// let userInput = prompt("conver anything into lowercase")
+// document.write(userInput.toUpperCase())
+// The toUpperCase() method of String values returns this string converted to uppercase.
 
