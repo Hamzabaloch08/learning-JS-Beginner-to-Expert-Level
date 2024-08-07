@@ -110,3 +110,11 @@
 // document.write(userInput.toUpperCase())
 // The toUpperCase() method of String values returns this string converted to uppercase.
 
+
+    // let pro = prompt('Enter city name')
+    // let pro1 = pro.slice(0,1).toUpperCase()
+    // let pro2 = pro.slice(1).toLowerCase()
+
+    // let res = pro1 + pro2
+    // document.write(res)
+
