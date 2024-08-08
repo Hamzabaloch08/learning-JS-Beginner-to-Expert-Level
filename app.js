@@ -161,15 +161,21 @@
 // document.write(Math.random()*10)
 
 
-let player1 = prompt("Enter HEADS name")
-let player2 = prompt("Enter TAILS name")
 
-let toss = Math.random() * 2
-let ch = Math.floor(toss)
+// create heads tails game  
 
-if (ch == 0) {
-    document.write(player1, " HEADS WIN")
-}
-else {
-    document.write(player2, " TAILS WIN")
-}
+// let player1 = prompt("Enter HEADS name")
+// let player2 = prompt("Enter TAILS name")
+
+// let toss = Math.random() * 2
+// let ch = Math.floor(toss)
+
+// if (ch == 0) {
+//     document.write(player1, " HEADS WIN")
+// }
+// else {
+//     document.write(player2, " TAILS WIN")
+// }
+
+
+
