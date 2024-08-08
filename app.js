@@ -132,3 +132,4 @@
 
 // let Name = "hamza"
 // document.write(Name.charAt("2"))
+
