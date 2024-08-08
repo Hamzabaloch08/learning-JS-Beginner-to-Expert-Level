@@ -127,3 +127,8 @@
 
 // document.write(res)
 
+
+// .charAt()
+
+// let Name = "hamza"
+// document.write(Name.charAt("2"))
