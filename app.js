@@ -134,3 +134,28 @@
 // document.write(Name.charAt("2"))
 
 
+
+// Math.round
+
+// let percentage = 72.4
+// document.write(Math.round(percentage))
+
+
+
+// Math.ceil
+
+// let percentage = 72.4
+// document.write(Math.ceil(percentage))
+
+
+
+// Math.floor
+
+// let percentage = 72.9
+// document.write(Math.floor(percentage))
+
+
+
+// Math.random
+
+// document.write(Math.random()*10)
