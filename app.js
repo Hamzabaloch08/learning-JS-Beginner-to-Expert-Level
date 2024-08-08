@@ -119,5 +119,11 @@
 // document.write(res)
 
 
+// .indexOf()
 
+// let userInput = prompt("Enter your name")
+// let studentNames = ["saad", "adeel", "ahmed", "ali"]
+// let res = studentNames.indexOf(userInput)
+
+// document.write(res)
 
