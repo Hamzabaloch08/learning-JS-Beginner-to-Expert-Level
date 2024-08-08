@@ -65,7 +65,7 @@
 // let match = false
 
 // for (i = 0; i < cityNames.length; i++) {
-//     if ( userInput.toLowerCase() == cityNames[i]) {
+//     if ( userInput == cityNames[i]) {
 //         match = true
 //         alert("City found")
 //         break
@@ -95,7 +95,7 @@
 
 
 
-// method of arrays
+// method of strings
 
 // .toLowerCase()
 
@@ -111,10 +111,13 @@
 // The toUpperCase() method of String values returns this string converted to uppercase.
 
 
-    // let pro = prompt('Enter city name')
-    // let pro1 = pro.slice(0,1).toUpperCase()
-    // let pro2 = pro.slice(1).toLowerCase()
+// let pro = prompt('Enter city name')
+// let pro1 = pro.slice(0,1).toUpperCase()
+// let pro2 = pro.slice(1).toLowerCase()
 
-    // let res = pro1 + pro2
-    // document.write(res)
+// let res = pro1 + pro2
+// document.write(res)
+
+
+
 
