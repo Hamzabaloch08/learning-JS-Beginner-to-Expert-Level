@@ -189,3 +189,18 @@
 // }
 
 
+// function sum(a, b, c) {
+//     return a + b + c
+// }
+
+// alert(sum(5, 6, 11));
+// alert(sum(11, 11, 11));
+
+
+// function sum(a = 2, b = 3, c = 4) {
+//     return a + b + c
+// }
+
+
+// alert(sum(10, 10, 10));
+// alert(sum());
