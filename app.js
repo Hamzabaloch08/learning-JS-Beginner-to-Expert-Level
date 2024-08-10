@@ -204,3 +204,10 @@
 
 // alert(sum(10, 10, 10));
 // alert(sum());
+
+
+
+// let abc = 2.8888888888;
+// document.write(abc.toFixed(10))
+
+
