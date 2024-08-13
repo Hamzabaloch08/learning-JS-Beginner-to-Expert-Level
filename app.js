@@ -212,8 +212,6 @@
 
 
 
-
-
 // setInterval
 
 // setInterval(function(){
@@ -229,4 +227,11 @@
 
 // setTimeout(function(){
 //     document.write("hello world")
+// },1000)
+
+
+// let num = 0
+// setInterval(function(){
+//     num++
+//     console.log(num)
 // },1000)
