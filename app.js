@@ -211,3 +211,22 @@
 // document.write(abc.toFixed(10))
 
 
+
+
+
+// setInterval
+
+// setInterval(function(){
+//     document.write("hello world")
+// },1000)
+
+
+// function timer(){
+//     document.write("html")
+// }
+// setInterval(timer, 1000)
+
+
+// setTimeout(function(){
+//     document.write("hello world")
+// },1000)
