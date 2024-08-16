@@ -237,7 +237,7 @@
 // },1000)
 
 
-// stop watch
+// stop watch--------------------->
 
 
 // let min = 0
@@ -278,3 +278,7 @@
 //     getSec.innerHTML = sec
 //     getMili.innerHTML = miliSeconds
 // }
+
+
+
+// stop watch-------------------------->
