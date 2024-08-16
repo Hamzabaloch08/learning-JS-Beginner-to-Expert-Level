@@ -240,41 +240,41 @@
 
 
 
-let min = 0
-let sec = 0
-let miliSeconds = 0
-let getMint = document.getElementById('min');
-let getSec = document.getElementById('sec');
-let getMili = document.getElementById('mSec');
-let stopTheWatch;
+// let min = 0
+// let sec = 0
+// let miliSeconds = 0
+// let getMint = document.getElementById('min');
+// let getSec = document.getElementById('sec');
+// let getMili = document.getElementById('mSec');
+// let stopTheWatch;
 
-function start() {
-    stopTheWatch = setInterval(function () {
-        miliSeconds++
-        getMili.innerHTML = miliSeconds
-        if (miliSeconds >= 100) {
-            sec++
-            getSec.innerHTML = sec
-            miliSeconds = 0
-        } else if (sec >= 60) {
-            min++
-            getMint.innerHTML = min
-            sec = 0
-        }
-    }, 10)
-    document.getElementById('disable').disabled = true
-}
+// function start() {
+//     stopTheWatch = setInterval(function () {
+//         miliSeconds++
+//         getMili.innerHTML = miliSeconds
+//         if (miliSeconds >= 100) {
+//             sec++
+//             getSec.innerHTML = sec
+//             miliSeconds = 0
+//         } else if (sec >= 60) {
+//             min++
+//             getMint.innerHTML = min
+//             sec = 0
+//         }
+//     }, 10)
+//     document.getElementById('disable').disabled = true
+// }
 
-function stop() {
-    document.getElementById('disable').disabled = false
-    clearInterval(stopTheWatch)
-}
+// function stop() {
+//     document.getElementById('disable').disabled = false
+//     clearInterval(stopTheWatch)
+// }
 
-function Reset() {
-    min = 0
-    sec = 0
-    miliSeconds = 0
-    getMint.innerHTML = min
-    getSec.innerHTML = sec
-    getMili.innerHTML = miliSeconds
-}
+// function Reset() {
+//     min = 0
+//     sec = 0
+//     miliSeconds = 0
+//     getMint.innerHTML = min
+//     getSec.innerHTML = sec
+//     getMili.innerHTML = miliSeconds
+// }
