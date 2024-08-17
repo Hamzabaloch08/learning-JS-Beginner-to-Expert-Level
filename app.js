@@ -282,3 +282,18 @@
 
 
 // stop watch-------------------------->
+
+
+
+
+
+
+
+
+
+
+// if (Dream && HardWork) {
+//     suceess();
+// } else {
+//     DreamBigger && WorkingHard
+// }
