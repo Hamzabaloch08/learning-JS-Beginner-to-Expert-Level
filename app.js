@@ -144,7 +144,7 @@
 
 // Math.ceil
 
-// let percentage = 72.4
+// let percentage = 72.2
 // document.write(Math.ceil(percentage))
 
 
@@ -284,16 +284,25 @@
 // stop watch-------------------------->
 
 
+// getAttribute
+
+// let input = document.getElementById('yes')
+// let attribute = input.getAttribute('class')
+// console.log(attribute)
 
 
+// hasAttribute
+
+// let input = document.getElementById('yes')
+// let attribute = input.hasAttribute('is')
+// console.log(attribute)
 
 
+// setAttribute
 
-
-
-
-// if (Dream && HardWork) {
-//     suceess();
-// } else {
-//     DreamBigger && WorkingHard
+// function add() {
+//     let input = document.getElementById('yes')
+//     let attribute = input.setAttribute('class','aaa')
+//     console.log(attribute)
 // }
+
