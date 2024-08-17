@@ -22,3 +22,17 @@
 // let averageScore = 40;
 // console.log(`Total Score: ${totalScore}`);
 // console.log(`Average Score: ${averageScore}`);
+
+
+
+
+
+
+// assignment no: 3
+
+// let plates = 20; 
+// let people = 7
+// let platesPerPerson = plates % people;
+// let remainingPlates = platesPerPerson
+// let result = `${remainingPlates} plates available`
+// console.log(result);
