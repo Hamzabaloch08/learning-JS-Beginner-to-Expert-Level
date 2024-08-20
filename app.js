@@ -317,6 +317,7 @@ const getUl = document.getElementById('ul')
 function add() {
     const input = document.getElementById('inp')
     let li = document.createElement('li')
+    let liText = document.createTextNode(input.value)
     // edit button
     let edit = document.createElement('button')
     edit.setAttribute('onclick','EditText(this)')
@@ -329,7 +330,6 @@ function add() {
     let clearText = document.createTextNode('Clear')
     clear.appendChild(clearText)
     // delete button
-    let liText = document.createTextNode(input.value)
     li.appendChild(liText)
     li.appendChild(edit)
     li.appendChild(clear)
