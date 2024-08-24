@@ -352,5 +352,13 @@
 // }
 
 
+// const getShowPasswordInput = document.getElementById('passwordInput')
 
-
+// function showPassword(){
+//     if(getShowPasswordInput.type === 'password'){
+//         getShowPasswordInput.type = 'text'
+//         }
+//         else{
+//             getShowPasswordInput.type = 'password'
+//         }
+// }
