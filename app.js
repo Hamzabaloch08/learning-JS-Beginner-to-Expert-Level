@@ -312,44 +312,45 @@
 
 
 
-const getUl = document.getElementById('ul')
+// const getUl = document.getElementById('ul')
 
-function add() {
-    const input = document.getElementById('inp')
-    let li = document.createElement('li')
-    let liText = document.createTextNode(input.value)
-    // edit button
-    let edit = document.createElement('button')
-    edit.setAttribute('onclick','EditText(this)')
-    let editText = document.createTextNode('Edit')
-    edit.appendChild(editText)
-    // edit button
-    // delete button
-    let clear = document.createElement('button')
-    clear.setAttribute('onclick', 'del(this)')
-    let clearText = document.createTextNode('Clear')
-    clear.appendChild(clearText)
-    // delete button
-    li.appendChild(liText)
-    li.appendChild(edit)
-    li.appendChild(clear)
-    getUl.appendChild(li)
-    input.value = ''
-}
+// function add() {
+//     const input = document.getElementById('inp')
+//     let li = document.createElement('li')
+//     let liText = document.createTextNode(input.value)
+//     // edit button
+//     let edit = document.createElement('button')
+//     edit.setAttribute('onclick','EditText(this)')
+//     let editText = document.createTextNode('Edit')
+//     edit.appendChild(editText)
+//     // edit button
+//     // delete button
+//     let clear = document.createElement('button')
+//     clear.setAttribute('onclick', 'del(this)')
+//     let clearText = document.createTextNode('Clear')
+//     clear.appendChild(clearText)
+//     // delete button
+//     li.appendChild(liText)
+//     li.appendChild(edit)
+//     li.appendChild(clear)
+//     getUl.appendChild(li)
+//     input.value = ''
+// }
 
-// for clear all 
-function ClearAll() {
-    getUl.innerHTML = ''
-}
+// // for clear all 
+// function ClearAll() {
+//     getUl.innerHTML = ''
+// }
 
-function del(e) {
-    e.parentNode.remove()
-}
+// function del(e) {
+//     e.parentNode.remove()
+// }
 
-function EditText(edit){
-    let editPrompt = prompt('Enter Edit Value',edit.parentNode.firstChild.nodeValue)
-    edit.parentNode.firstChild.nodeValue = editPrompt
-}
+// function EditText(edit){
+//     let editPrompt = prompt('Enter Edit Value',edit.parentNode.firstChild.nodeValue)
+//     edit.parentNode.firstChild.nodeValue = editPrompt
+// }
+
 
 
 
