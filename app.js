@@ -364,24 +364,18 @@
 // }
 
 
+let input = prompt('email')
+let pass = prompt('pass')
 
-let getEmail = document.getElementById('userEmail')
-let getPassword = document.getElementById('userPassword')
 // Retrieve existing data from local storage
 let existingData = JSON.parse(localStorage.getItem("students")) || [];
 
-
     // Define a new student object
     let student = {
-        email: getEmail.value,
-        password: getPassword.value
+        email: input,
+        password: pass
     };
 
-
-    console.log(student,email)
-
-
-function addDetail() {
 // Add the new student to the existing data array
 existingData.push(student);
 
@@ -390,7 +384,6 @@ localStorage.setItem("students", JSON.stringify(existingData));
 
 // For debugging and verification
 console.log(existingData);
-}
 
 
 
