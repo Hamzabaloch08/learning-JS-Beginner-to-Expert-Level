@@ -362,3 +362,58 @@
 //             getShowPasswordInput.type = 'password'
 //         }
 // }
+
+
+
+let getEmail = document.getElementById('userEmail')
+let getPassword = document.getElementById('userPassword')
+// Retrieve existing data from local storage
+let existingData = JSON.parse(localStorage.getItem("students")) || [];
+
+
+    // Define a new student object
+    let student = {
+        email: getEmail.value,
+        password: getPassword.value
+    };
+
+
+    console.log(student,email)
+
+
+function addDetail() {
+// Add the new student to the existing data array
+existingData.push(student);
+
+// Store the updated data back to local storage
+localStorage.setItem("students", JSON.stringify(existingData));
+
+// For debugging and verification
+console.log(existingData);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let divData = document.getElementById("divData")
+
+// existingData.forEach(element => {
+//     divData.innerHTML += `
+//     <li>${element.name}</li>
+//     <li>${element.rollNo}</li>
+//     <li>${element.email}</li>
+//     `
+//     console.log(element.name)
+// })
