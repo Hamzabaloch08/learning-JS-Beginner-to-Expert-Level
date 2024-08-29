@@ -364,26 +364,26 @@
 // }
 
 
-let input = prompt('email')
-let pass = prompt('pass')
+// let input = prompt('email')
+// let pass = prompt('pass')
 
-// Retrieve existing data from local storage
-let existingData = JSON.parse(localStorage.getItem("students")) || [];
+// // Retrieve existing data from local storage
+// let existingData = JSON.parse(localStorage.getItem("students")) || [];
 
-    // Define a new student object
-    let student = {
-        email: input,
-        password: pass
-    };
+// // Define a new student object
+// let student = {
+//     email: input,
+//     password: pass
+// };
 
-// Add the new student to the existing data array
-existingData.push(student);
+// // Add the new student to the existing data array
+// existingData.push(student);
 
-// Store the updated data back to local storage
-localStorage.setItem("students", JSON.stringify(existingData));
+// // Store the updated data back to local storage
+// localStorage.setItem("students", JSON.stringify(existingData));
 
-// For debugging and verification
-console.log(existingData);
+// // For debugging and verification
+// console.log(existingData);
 
 
 
