@@ -162,7 +162,7 @@
 
 
 
-// create heads tails game  
+// create heads tails game
 
 // let player1 = prompt("Enter HEADS name")
 // let player2 = prompt("Enter TAILS name")
@@ -178,7 +178,7 @@
 // }
 
 
-// function 
+// function
 
 // function abc(){
 //     alert("hello world")
@@ -337,7 +337,7 @@
 //     input.value = ''
 // }
 
-// // for clear all 
+// // for clear all
 // function ClearAll() {
 //     getUl.innerHTML = ''
 // }
@@ -389,17 +389,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // let divData = document.getElementById("divData")
 
 // existingData.forEach(element => {
@@ -410,3 +399,32 @@
 //     `
 //     console.log(element.name)
 // })
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>> loops <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// for loop 
+
+// for(let i = 0; i <= 10; i++){
+//     document.write(i , '<br>')
+// }
+
+
+
+
+
+// while loop
+//  let number = 10
+//  while(number >= 1){
+//     document.write(number , '<br>')
+//     number--
+//  }
+
+
+
+
+
+
+// Do While loop
