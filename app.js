@@ -405,7 +405,7 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>> loops <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// for loop 
+// >>>>>>>>>> for loop <<<<<<<<<<<<<< 
 
 // for(let i = 0; i <= 10; i++){
 //     document.write(i , '<br>')
@@ -415,7 +415,7 @@
 
 
 
-// while loop
+// >>>>>>>>>>> while loop <<<<<<<<<<<<
 //  let number = 10
 //  while(number >= 1){
 //     document.write(number , '<br>')
@@ -427,4 +427,9 @@
 
 
 
-// Do While loop
+//>>>>>>>>>>> Do While loop <<<<<<<<<<<<
+// let num = 1
+// do {
+//     document.write(num, '<br>')
+//     num++
+// } while (num <= 10)  
