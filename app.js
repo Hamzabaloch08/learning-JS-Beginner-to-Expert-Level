@@ -34,6 +34,8 @@
 // }
 
 
+
+
 // let array = ["hamza","16",true,"ali"]
 // array.push("hsadgh")
 // array.pop()
@@ -92,6 +94,8 @@
 //     }
 //     document.write("<br>")
 // }
+
+
 
 
 
