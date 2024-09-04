@@ -451,3 +451,17 @@
 // }
 
 // func1()
+
+
+// .filter method 
+
+// let data = [100,65,,64,76,567,578,345,123,45,432,654,754,567,754,234,908,890]
+
+// let filteredData = data.filter(function(data){
+//     return data > 500
+// })
+
+// console.log(filteredData)
+
+
+
