@@ -472,3 +472,11 @@
 //     document.write(`${printNames} <br>`)
 // })
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> forEach + .reverse() method
+
+// let names = ['hamza','ahmed','raza','saad','rahul','ayan','hassan','usman','farhan','rehman']
+// let reverseNames = names.reverse()
+// reverseNames.forEach(function(printReverseNames){
+//     document.write(`${printReverseNames} <br>`)
+// })
+
