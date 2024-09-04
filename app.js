@@ -428,12 +428,26 @@
 
 
 
-
-
-
 //>>>>>>>>>>> Do While loop <<<<<<<<<<<<
 // let num = 1
 // do {
 //     document.write(num, '<br>')
 //     num++
 // } while (num <= 10)  
+
+
+
+// function func1() {
+//     let obj = {
+//         name: "saad",
+//         age: 25,
+//     }
+
+//     func2(obj)
+// }
+
+// function func2(e){
+//     console.log(e)
+// }
+
+// func1()
