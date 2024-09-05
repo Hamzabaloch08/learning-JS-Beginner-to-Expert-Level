@@ -480,3 +480,12 @@
 //     document.write(`${printReverseNames} <br>`)
 // })
 
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .map loop
+
+// let names = ['hamza','ahmed','raza','saad','rahul','ayan','hassan','usman','farhan','rehman']
+
+// names.map(function(printNames){
+//     document.write(`${printNames} `)
+// })
+
