@@ -489,8 +489,8 @@
 //     document.write(`${printNames} `)
 // })
 
-// let fullName = 'jamsheed'
 
+// let fullName = 'jamsheed'
 // if (fullName == 'java' || 'html' || 'javascript') {
 //     console.log('you are a programmer')
 // }
