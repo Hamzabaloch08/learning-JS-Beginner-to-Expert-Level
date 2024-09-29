@@ -453,4 +453,11 @@
 
 let newDate = new Date();
 // console.log(newDate.getFullYear())
-console.log(newDate.getMonth() + 1)
+// console.log(newDate.getMonth() + 1)
+
+// console.log(newDate.toLocaleString("default",{
+//     weekday: "long",
+//     year: "numeric",
+//     day: "numeric"
+// }))
+
