@@ -480,6 +480,8 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> falting array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-let arr = [1, 2, 3, 4, 5, 6, [6, 7, 8, 8], 4, 23, 12, 53, [23, 3, 4, [3, 5, [3, 4], 1, 5]]]
-let flatArray = arr.flat(Infinity)
-console.log(flatArray)
+// let arr = [1, 2, 3, 4, 5, 6, [6, 7, 8, 8], 4, 23, 12, 53, [23, 3, 4, [3, 5, [3, 4], 1, 5]]]
+// let flatArray = arr.flat(Infinity)
+// console.log(flatArray)
+
+// console.log(Array.from("hamza"))
