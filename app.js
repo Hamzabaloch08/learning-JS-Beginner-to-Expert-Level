@@ -493,18 +493,18 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> object literals <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-let user = {
-  name: "Hamza",
-  userName: "hb._07x",
-  age: 16,
-  country: "pakistan",
-  city: "Karachi",
-  address: "Garden west karachi",
-  hobbies: ["Coding", "Football", "Reading", "Gaming"],
-  skills: ["JavaScript", "Css", "html"],
-  isMarried: false,
-};
+// let user = {
+//   name: "Hamza",
+//   userName: "hb._07x",
+//   age: 16,
+//   country: "pakistan",
+//   city: "Karachi",
+//   address: "Garden west karachi",
+//   hobbies: ["Coding", "Football", "Reading", "Gaming"],
+//   skills: ["JavaScript", "Css", "html"],
+//   isMarried: false,
+// };
 
-console.log(
-  `Name: ${user.name} \nHobbies: ${user.hobbies} \nUsername: ${user.userName} \nSkills: ${user.skills} \nAge: ${user.age}`
-);
+// console.log(
+//   `Name: ${user.name} \nHobbies: ${user.hobbies} \nUsername: ${user.userName} \nSkills: ${user.skills} \nAge: ${user.age}`
+// );
