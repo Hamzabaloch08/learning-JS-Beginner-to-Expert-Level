@@ -462,7 +462,9 @@
 // }))
 
 
-const marvalHeros = [
-    
-]
+const marval_heros = ['SpiderMan', 'IronMan', 'Thor','Hulk']
+const dc_heros = ['Batman', 'Superman','Flash']
+
+const allHeros = marval_heros.concat(dc_heros)
+console.log(allHeros)
 
