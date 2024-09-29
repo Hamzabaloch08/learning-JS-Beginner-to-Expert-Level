@@ -462,9 +462,18 @@
 // }))
 
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> concating array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// const marval_heros = ['SpiderMan', 'IronMan', 'Thor','Hulk']
+// const dc_heros = ['Batman', 'Superman','Flash']
+
+// const allHeros = marval_heros.concat(dc_heros)
+// console.log(allHeros)
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spread operator <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 const marval_heros = ['SpiderMan', 'IronMan', 'Thor','Hulk']
 const dc_heros = ['Batman', 'Superman','Flash']
-
-const allHeros = marval_heros.concat(dc_heros)
-console.log(allHeros)
+ const allHeros = [...marval_heros, ...dc_heros]
+ console.log(allHeros)
 
