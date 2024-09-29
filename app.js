@@ -472,8 +472,8 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spread operator <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-const marval_heros = ['SpiderMan', 'IronMan', 'Thor','Hulk']
-const dc_heros = ['Batman', 'Superman','Flash']
- const allHeros = [...marval_heros, ...dc_heros]
- console.log(allHeros)
+// const marval_heros = ['SpiderMan', 'IronMan', 'Thor','Hulk']
+// const dc_heros = ['Batman', 'Superman','Flash']
+//  const allHeros = [...marval_heros, ...dc_heros]
+//  console.log(allHeros)
 
