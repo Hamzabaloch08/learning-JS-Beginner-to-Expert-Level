@@ -484,9 +484,25 @@
 
 // console.log(Array.from("hamza"))
 
-let score1 = 100;
-let score2 = 200;
-let score3 = 300;
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
 
-let totalScore = Array.of(score1,score2,score3);
-console.log(totalScore); // Output: [100, 200, 300]
+// let totalScore = Array.of(score1,score2,score3);
+// console.log(totalScore); // Output: [100, 200, 300]
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> object literals <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let user = {
+    name: "Hamza",
+    userName: "hb._07x",
+    age: 16,
+    country: "pakistan",
+    city: "Karachi",
+    address: "Garden west karachi",
+    hobbies: ["Coding", "Football", "Reading","Gaming"],
+    skills: ["JavaScript", "Css", "html"],
+    isMarried: false
+}
+
+console.log(user);
