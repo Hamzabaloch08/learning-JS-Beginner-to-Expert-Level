@@ -1,76 +1,3 @@
-// let studentName = prompt("Name")
-// let allSubjects = [+prompt("Marks in English"), +prompt("Marks in Urdu"), +prompt("Marks in Maths"), +prompt("Marks in islamiyat"), +prompt("Marks in computer")]
-// let subjectMarks = allSubjects[0] + allSubjects[1] + allSubjects[2] + allSubjects[3] + allSubjects[4]
-// let percentage = ((subjectMarks / 500) * 100)
-
-// if (percentage >= 80 && percentage < 101) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade A+", "</h1>")
-// }
-// else if (percentage >= 70 && percentage < 80) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade A", "</h1>")
-// }
-// else if (percentage >= 60 && percentage < 70) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade B", "</h1>")
-// }
-// else if (percentage >= 50 && percentage < 60) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade C", "</h1>")
-// }
-// else if (percentage >= 40 && percentage < 50) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade D", "</h1>")
-// }
-// else if (percentage >= 0 && percentage < 40) {
-//     document.write("<h1>", studentName, ": Your percentage is ", percentage, "%", "</h1>")
-//     document.write("<h1>", "Grade F", "</h1>")
-// }
-// else {
-//     document.write("<h1>", "Invalid percentage", "</h1>")
-//     document.write("<h1>", "Enter Correct Marks", "</h1>")
-// }
-
-// let array = ["hamza","16",true,"ali"]
-// array.push("hsadgh")
-// array.pop()
-// array.unshift("web")
-// array.shift()
-// array.splice(1,1,"ali")
-// let array2 = array.slice(0)
-
-// document.write(array)
-// document.write("<br>")
-// document.write(array2)
-
-// let arr = [1,2,3,4,5]
-// for(i = 0; i < arr.length; i++){
-//     document.write(arr[i])
-// }
-
-// let userInput = +prompt("which table you want")
-// let userInput2 = +prompt("1 till..?")
-// for (let i = 1; i <= userInput2; i++) {
-//     document.write(userInput, " x ", i, " = ", i * userInput, "<br>")
-// }
-
-// let userInput = prompt("Enter city name of Pakistan")
-// let cityNames = ["karachi", "lahore", "islamabad",
-// "quetta", "peshawer","hyderabad", "gwadar", "hub"]
-// let match = false
-
-// for (i = 0; i < cityNames.length; i++) {
-//     if ( userInput == cityNames[i]) {
-//         match = true
-//         alert("City found")
-//         break
-//     }
-// }
-// if (match == false) {
-//     alert("City Not Found")
-// }
-
 // nested loop
 
 // let num = ["Front-End","Back-End","Full-stack",]
@@ -110,14 +37,6 @@
 // let res = pro1 + pro2
 // document.write(res)
 
-// .indexOf()
-
-// let userInput = prompt("Enter your name")
-// let studentNames = ["saad", "adeel", "ahmed", "ali"]
-// let res = studentNames.indexOf(userInput)
-
-// document.write(res)
-
 // .charAt()
 
 // let Name = "hamza"
@@ -141,21 +60,6 @@
 // Math.random
 
 // document.write(Math.random()*10)
-
-// create heads tails game
-
-// let player1 = prompt("Enter HEADS name")
-// let player2 = prompt("Enter TAILS name")
-
-// let toss = Math.random() * 2
-// let ch = Math.floor(toss)
-
-// if (ch == 0) {
-//     document.write(player1, " HEADS WIN")
-// }
-// else {
-//     document.write(player2, " TAILS WIN")
-// }
 
 // function
 
@@ -184,173 +88,6 @@
 // let abc = 2.8888888888;
 // document.write(abc.toFixed(10))
 
-// setInterval
-
-// setInterval(function(){
-//     document.write("hello world")
-// },1000)
-
-// function timer(){
-//     document.write("html")
-// }
-// setInterval(timer, 1000)
-
-// setTimeout(function(){
-//     document.write("hello world")
-// },1000)
-
-// let num = 0
-// setInterval(function(){
-//     num++
-//     console.log(num)
-// },1000)
-
-// stop watch--------------------->
-
-// let min = 0
-// let sec = 0
-// let miliSeconds = 0
-// let getMint = document.getElementById('min');
-// let getSec = document.getElementById('sec');
-// let getMili = document.getElementById('mSec');
-// let stopTheWatch;
-
-// function start() {
-//     stopTheWatch = setInterval(function () {
-//         miliSeconds++
-//         getMili.innerHTML = miliSeconds
-//         if (miliSeconds >= 100) {
-//             sec++
-//             getSec.innerHTML = sec
-//             miliSeconds = 0
-//         } else if (sec >= 60) {
-//             min++
-//             getMint.innerHTML = min
-//             sec = 0
-//         }
-//     }, 10)
-//     document.getElementById('disable').disabled = true
-// }
-
-// function stop() {
-//     document.getElementById('disable').disabled = false
-//     clearInterval(stopTheWatch)
-// }
-
-// function Reset() {
-//     min = 0
-//     sec = 0
-//     miliSeconds = 0
-//     getMint.innerHTML = min
-//     getSec.innerHTML = sec
-//     getMili.innerHTML = miliSeconds
-// }
-
-// stop watch-------------------------->
-
-// getAttribute
-
-// let input = document.getElementById('yes')
-// let attribute = input.getAttribute('class')
-// console.log(attribute)
-
-// hasAttribute
-
-// let input = document.getElementById('yes')
-// let attribute = input.hasAttribute('is')
-// console.log(attribute)
-
-// setAttribute
-
-// function add() {
-//     let input = document.getElementById('yes')
-//     let attribute = input.setAttribute('class','aaa')
-//     console.log(attribute)
-// }
-
-// todo app
-
-// const getUl = document.getElementById('ul')
-
-// function add() {
-//     const input = document.getElementById('inp')
-//     let li = document.createElement('li')
-//     let liText = document.createTextNode(input.value)
-//     // edit button
-//     let edit = document.createElement('button')
-//     edit.setAttribute('onclick','EditText(this)')
-//     let editText = document.createTextNode('Edit')
-//     edit.appendChild(editText)
-//     // edit button
-//     // delete button
-//     let clear = document.createElement('button')
-//     clear.setAttribute('onclick', 'del(this)')
-//     let clearText = document.createTextNode('Clear')
-//     clear.appendChild(clearText)
-//     // delete button
-//     li.appendChild(liText)
-//     li.appendChild(edit)
-//     li.appendChild(clear)
-//     getUl.appendChild(li)
-//     input.value = ''
-// }
-
-// // for clear all
-// function ClearAll() {
-//     getUl.innerHTML = ''
-// }
-
-// function del(e) {
-//     e.parentNode.remove()
-// }
-
-// function EditText(edit){
-//     let editPrompt = prompt('Enter Edit Value',edit.parentNode.firstChild.nodeValue)
-//     edit.parentNode.firstChild.nodeValue = editPrompt
-// }
-
-// const getShowPasswordInput = document.getElementById('passwordInput')
-
-// function showPassword(){
-//     if(getShowPasswordInput.type === 'password'){
-//         getShowPasswordInput.type = 'text'
-//         }
-//         else{
-//             getShowPasswordInput.type = 'password'
-//         }
-// }
-
-// let input = prompt('email')
-// let pass = prompt('pass')
-
-// // Retrieve existing data from local storage
-// let existingData = JSON.parse(localStorage.getItem("students")) || [];
-
-// // Define a new student object
-// let student = {
-//     email: input,
-//     password: pass
-// };
-
-// // Add the new student to the existing data array
-// existingData.push(student);
-
-// // Store the updated data back to local storage
-// localStorage.setItem("students", JSON.stringify(existingData));
-
-// // For debugging and verification
-// console.log(existingData);
-
-// let divData = document.getElementById("divData")
-
-// existingData.forEach(element => {
-//     divData.innerHTML += `
-//     <li>${element.name}</li>
-//     <li>${element.rollNo}</li>
-//     <li>${element.email}</li>
-//     `
-//     console.log(element.name)
-// })
 
 // >>>>>>>>>>>>>>>>>>>>>>>> loops <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -389,15 +126,6 @@
 
 // func1()
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .filter method
-
-// let data = [100,65,,64,76,567,578,345,123,45,432,654,754,567,754,234,908,890]
-
-// let filteredData = data.filter(function(data){
-//     return data > 500;
-// })
-
-// console.log(filteredData)
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> loop forEach
 
