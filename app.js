@@ -531,7 +531,7 @@
 // // let assigningObject = Object.assign({}, obj1, obj2, obj3);
 // console.log(assigningObject);
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spreading object  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spreading object  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // let obj1 = {
 //   name: "Hamza",
@@ -550,3 +550,24 @@
 
 // console.log(Object.entries(obj1))
 // console.log(obj1.hasOwnProperty('name'))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> objects in array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let obj = [
+//   {
+//     name: "Hamza",
+//     age: 16,
+//   },
+//   {
+//     name: "raza",
+//     age: 19,
+//   },
+//   {
+//     name: "ali",
+//     age: 20,
+//     },
+// ];
+
+// console.log(obj[0])
+
+
