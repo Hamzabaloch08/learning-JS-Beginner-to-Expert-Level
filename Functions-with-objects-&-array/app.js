@@ -21,3 +21,12 @@
 //   console.log(`username: ${object.name} age: ${user.age}`);
 // }
 // handelObject(user);
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Array in function <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let myNewArray = [100, 200, 300, 400];
+
+// function returnSecondValueOfArray(getArray){
+//     return getArray[1];
+// }
+// console.log(returnSecondValueOfArray(myNewArray)); // Output: 200
