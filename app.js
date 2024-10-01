@@ -570,4 +570,20 @@
 
 // console.log(obj[0])
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> destructuring object <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+let course = {
+  courseName: "Mobile app and web development",
+  courseDuration: "12 months",
+  courseFees: "50000",
+  courseLanguage: "english",
+  courseLocation: "karachi",
+};
+
+const { courseName } = course;
+const { courseDuration } = course;
+const { courseFees } = course;
+
+console.log(`Course Name: ${courseName}`);
+console.log(`Course Duration ${courseDuration}`);
+console.log(`Course Fees: ${courseFees}`);
