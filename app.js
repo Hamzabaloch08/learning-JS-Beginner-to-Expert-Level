@@ -533,19 +533,20 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spreading object  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-let obj1 = {
-  name: "Hamza",
-  fullname: "Hamza baloch"
-};
-let obj2 = {
-  age: 16,
-};
+// let obj1 = {
+//   name: "Hamza",
+//   fullname: "Hamza baloch"
+// };
+// let obj2 = {
+//   age: 16,
+// };
 
-let obj3 = {
-  country: "pakistan",
-};
+// let obj3 = {
+//   country: "pakistan",
+// };
 
 // const spreadingObject = { ...obj1, ...obj2, ...obj3 };
 // console.log(spreadingObject);
 
-console.log(Object.entries(obj1))
+// console.log(Object.entries(obj1))
+// console.log(obj1.hasOwnProperty('name'))
