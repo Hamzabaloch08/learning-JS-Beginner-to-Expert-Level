@@ -493,8 +493,10 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> object literals <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+// let mySym = Symbol("name");
+
 // let user = {
-//   name: "Hamza",
+//   [mySym]: "Hamza",
 //   userName: "hb._07x",
 //   age: 16,
 //   country: "pakistan",
@@ -505,6 +507,42 @@
 //   isMarried: false,
 // };
 
+// Object.freeze(user);
+
+// console.log(user[mySym])
+
 // console.log(
 //   `Name: ${user.name} \nHobbies: ${user.hobbies} \nUsername: ${user.userName} \nSkills: ${user.skills} \nAge: ${user.age}`
 // );
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> assigning object <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let obj1 = {
+//   name: "Hamza",
+// };
+// let obj2 = {
+//   age: 16,
+// };
+
+// let obj3 = {
+//   country: "pakistan",
+// };
+
+// // let assigningObject = Object.assign({}, obj1, obj2, obj3);
+// console.log(assigningObject);
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> spreading object  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let obj1 = {
+//   name: "Hamza",
+// };
+// let obj2 = {
+//   age: 16,
+// };
+
+// let obj3 = {
+//   country: "pakistan",
+// };
+
+// const spreadingObject = { ...obj1, ...obj2, ...obj3 };
+// console.log(spreadingObject);
