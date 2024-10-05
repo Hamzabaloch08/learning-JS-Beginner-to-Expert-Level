@@ -15,3 +15,12 @@ if (todayTemperature < 30) {
 }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> else if <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let userAge = +prompt(`Enter your `)
+if (userAge < 18) {
+    console.log(`User is Minor`)
+} else if (userAge >= 18 && userAge <= 60) {
+    console.log(`User is Adult`)
+} else {
+    console.log(`User is Senior`)
+}
