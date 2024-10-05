@@ -16,3 +16,16 @@ if (todayTemperature < 30) {
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> else if <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+let balance = 500
+let userInput = +prompt(`enter your balance`)
+if (userInput === balance) {
+    // console.log(`your balance is ${userInput} you are eligible for this course`)
+} else if (userInput > balance) {
+    // console.log(`your balance is higher then ${balance} but its ok you are eligible for this course`)
+} else if (userInput < balance) {
+    // console.log(`your balance is ${userInput} you are not eligible for this course`)
+} else if (userInput === NaN) {
+    // console.log(`your balance is ${userInput} you are not eligible for this course`)
+} else {
+    // console.log(`please enter valid number or valid balance`)
+}
