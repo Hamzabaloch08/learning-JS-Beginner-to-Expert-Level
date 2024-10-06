@@ -1,31 +1,31 @@
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> if condition <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-const isUserLoggedIn = true
-if (isUserLoggedIn === true) {
+// const isUserLoggedIn = true
+// if (isUserLoggedIn === true) {
     // console.log(`User was LoggedIn this Page`)
-}
+// }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> else <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-const todayTemperature = 28
-if (todayTemperature < 30) {
+// const todayTemperature = 28
+// if (todayTemperature < 30) {
     // console.log(`less then ${todayTemperature}`)
-} else {
+// } else {
     // console.log(`Greater then ${todayTemperature}`)
-}
+// }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> else if <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-let balance = 500
-let userInput = +prompt(`enter your balance`)
-if (userInput === balance) {
+// let balance = 500
+// let userInput = +prompt(`enter your balance`)
+// if (userInput === balance) {
     // console.log(`your balance is ${userInput} you are eligible for this course`)
-} else if (userInput > balance) {
+// } else if (userInput > balance) {
     // console.log(`your balance is higher then ${balance} but its ok you are eligible for this course`)
-} else if (userInput < balance) {
+// } else if (userInput < balance) {
     // console.log(`your balance is ${userInput} you are not eligible for this course`)
-} else if (userInput === NaN) {
+// } else if (userInput === NaN) {
     // console.log(`your balance is ${userInput} you are not eligible for this course`)
-} else {
+// } else {
     // console.log(`please enter valid number or valid balance`)
-}
+// }
