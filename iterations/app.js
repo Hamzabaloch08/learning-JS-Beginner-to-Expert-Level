@@ -52,3 +52,10 @@
 //         document.write(`${i} x ${j} = ${i * j} <br>`);
 //     }
 // }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> forloop on array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let superHerosNames = ['Superman', 'Batman', 'Thor', 'Ironman', 'Spiderman', 'Antman', 'Hulk', 'Blackpanther']
+for (let i = 0; i < superHerosNames.length; i++) {
+    document.write(`${superHerosNames[i]} `);
+}
