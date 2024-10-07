@@ -55,7 +55,25 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> forloop on array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-let superHerosNames = ['Superman', 'Batman', 'Thor', 'Ironman', 'Spiderman', 'Antman', 'Hulk', 'Blackpanther']
-for (let i = 0; i < superHerosNames.length; i++) {
-    document.write(`${superHerosNames[i]} `);
-}
+// let superHerosNames = ['Superman', 'Batman', 'Thor', 'Ironman', 'Spiderman', 'Antman', 'Hulk', 'Blackpanther']
+// for (let i = 0; i < superHerosNames.length; i++) {
+//     document.write(`${superHerosNames[i]} `);
+// }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> break or continue <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log(`Detected 5!`)
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log(`Detected 5`)
+//         continue;
+//     }
+//     console.log(i);
+// }
