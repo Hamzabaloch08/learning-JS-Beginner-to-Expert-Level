@@ -106,3 +106,29 @@
 // if (Object.keys(emptyObject).length == 0){
 //     console.log("Object is empty")
 // }
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Nullish Coalescing Operator (??) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+/* The nullish coalescing operator (??) is a new operator in JavaScript that returns the
+first operand if it is not null or undefined; otherwise, it returns the second operand.
+It is similar to the OR operator (||), but it only returns the second operand if the
+first operand is null or undefined, not if it is a falsy value. */
+
+// let name = null
+// let name2 = name ?? 'John Doe'
+// console.log(name2) // John Doe
+
+// let val1 = null;
+// let val2 = undefined;
+// let res = val1 ?? val2; 
+// console.log(res); // undefined
+
+// let val1 = undefined;
+// let val2 = null;
+// let res = val1 ?? val2;
+// console.log(res); //null
+
+// let val1 = 0;
+// let val2 = null;
+// let res = val1 ?? val2;
+// console.log(res); // 0
