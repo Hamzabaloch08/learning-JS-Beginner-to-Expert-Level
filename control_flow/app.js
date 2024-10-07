@@ -120,7 +120,7 @@ first operand is null or undefined, not if it is a falsy value. */
 
 // let val1 = null;
 // let val2 = undefined;
-// let res = val1 ?? val2; 
+// let res = val1 ?? val2;
 // console.log(res); // undefined
 
 // let val1 = undefined;
@@ -132,3 +132,15 @@ first operand is null or undefined, not if it is a falsy value. */
 // let val2 = null;
 // let res = val1 ?? val2;
 // console.log(res); // 0
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Terniary Operator ( Condition ? true : false ) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+/* The ternary operator is a shorthand for a simple if/else statement. It consists of three
+expressions separated by a question mark (?) and a colon (:). The first expression is
+evaluated, and if it is true, the second expression is evaluated and returned; otherwise,
+the third expression is evaluated and returned. */
+
+// Condition ? true : false // example || syntex
+
+const coldCoffeePrice = 100;
+// coldCoffeePrice < 80 ? console.log(`less than 80`) : console.log(`more than 80`)
