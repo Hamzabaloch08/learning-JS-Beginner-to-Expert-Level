@@ -46,9 +46,9 @@
 
 // table printing
 
-for (let i = 2; i <= 10; i++) {
-    document.write(`<br>Table of ${i} <br><br>`)
-    for (let j = 1; j <= 10; j++) {
-        document.write(`${i} x ${j} = ${i * j} <br>`);
-    }
-}
+// for (let i = 2; i <= 10; i++) {
+//     document.write(`<br>Table of ${i} <br><br>`)
+//     for (let j = 1; j <= 10; j++) {
+//         document.write(`${i} x ${j} = ${i * j} <br>`);
+//     }
+// }
