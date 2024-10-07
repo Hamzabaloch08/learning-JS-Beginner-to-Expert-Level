@@ -85,3 +85,13 @@
 //     console.log(`value of index is ${index}`)
 //     index++;
 // }
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> while loop on array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let index = 0;
+// let arr = ['js', 'html', 'css', 'python', 'java', 'c++', 'c#']
+// while (index < arr.length) {
+//     console.log(arr[index])
+//     index++
+// }
