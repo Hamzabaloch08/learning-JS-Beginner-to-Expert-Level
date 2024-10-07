@@ -86,3 +86,23 @@
 //         console.log("Invalid month");
 //         break;
 // }
+
+
+// falsy values
+
+// false, 0, -0, BigInt 0n, "", null, undefined
+
+
+// truthy values
+
+// true, "0", 'false', " ", [], {}, function () { } => empty function
+
+// let emptyArray = []
+// if (emptyArray.length == 0) {
+//     console.log("Array is empty")
+// }
+
+// let emptyObject = {}
+// if (Object.keys(emptyObject).length == 0){
+//     console.log("Object is empty")
+// }
