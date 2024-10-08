@@ -15,6 +15,11 @@
 const map = new Map()
 map.set('name', 'john');
 map.set('age', '18');
-map.set('city', 'NYC')
+map.set('city', 'NYC');
+map.set('country', 'USA');
 
-console.log(map)
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> for of on maps <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+for (const [key, value] of map) {
+    console.log(`${key} => ${value}`)
+}
