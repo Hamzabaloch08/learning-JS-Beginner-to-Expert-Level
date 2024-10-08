@@ -63,3 +63,21 @@ coding.forEach((lang) => {
 //     console.log(item, index, array)
 // })
 
+const list = [
+    {
+        languageName: "JavaScript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "Java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "Python",
+        languageFileName: "py"
+    },
+]
+
+list.forEach((item) => {
+    console.log(`languages: ${item.languageName} => languageFileName: ${item.languageFileName}`);
+})
