@@ -52,3 +52,14 @@ coding.forEach((lang) => {
     // console.log(lang)
 })
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> function reference on for each <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// function print(item){
+//     console.log(item)
+// }
+// coding.forEach(printMe)
+
+// coding.forEach((item, index, array) => {
+//     console.log(item, index, array)
+// })
+
