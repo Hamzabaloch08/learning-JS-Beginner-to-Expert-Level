@@ -45,3 +45,10 @@ let names = ['john', 'Sam', 'lara']
 //     console.log(names[i])
 // }
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> for each on array <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let coding = ['JavaScript', 'python', 'c++', 'Java', 'Cpp', 'Ruby']
+coding.forEach((lang) => {
+    // console.log(lang)
+})
+
