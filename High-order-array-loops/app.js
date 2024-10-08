@@ -20,6 +20,19 @@ map.set('country', 'USA');
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> for of on maps <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-for (const [key, value] of map) {
-    console.log(`${key} => ${value}`)
+// for (const [key, value] of map) {
+//     console.log(`${key} => ${value}`)
+// }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> for in on object <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+const myObject = {
+    game1: "Gta v",
+    game2: "Assasins creed",
+    game3: "Fifa 22",
+    game4: "Nfs"
+}
+
+for (const names in myObject) {
+    // console.log(`${names} is ${myObject[names]}`)
 }
