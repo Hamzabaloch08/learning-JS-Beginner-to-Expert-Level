@@ -67,7 +67,28 @@ let newNumber = num.map((num) => num * 10)
 
 const numbers = [1, 2, 3]
 const myTotal = numbers.reduce((accumulator, currentValue) => {
-    console.log(`acc: ${accumulator} cur: ${currentValue}`)
+    // console.log(`acc: ${accumulator} cur: ${currentValue}`)
     return accumulator + currentValue;
 }, 0)
-console.log(myTotal); // 6
+// console.log(myTotal); // 6
+
+
+const shoppinCart = [
+    {
+        itemName: 'book',
+        price: 1000
+    },
+    {
+        name: 'laptop',
+        price: 30000
+    },
+    {
+        itemName: 'phone',
+        price: 5000
+    },
+]
+
+const total = shoppinCart.reduce((accumulator, item) => {
+    return accumulator + item.price;
+}, 0)
+// console.log(total); // 35000
