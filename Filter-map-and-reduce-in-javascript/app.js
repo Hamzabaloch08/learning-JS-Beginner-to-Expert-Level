@@ -61,4 +61,13 @@ let newNumber = num.map((num) => num * 10)
     .map((num) => num + 1).filter((num) => {
         return num >= 40
     })
-console.log(newNumber);
+// console.log(newNumber);
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> reduce method <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+const numbers = [1, 2, 3]
+const myTotal = numbers.reduce((accumulator, currentValue) => {
+    console.log(`acc: ${accumulator} cur: ${currentValue}`)
+    return accumulator + currentValue;
+}, 0)
+console.log(myTotal); // 6
