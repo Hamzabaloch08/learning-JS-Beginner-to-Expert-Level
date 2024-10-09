@@ -46,11 +46,19 @@ let userBooks = books.filter((seletedBooks) => {
 // console.log(userBooks);
 
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .map <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .map <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 let newNums = num.map((num) => {
     return num + 10 // => map returns a new array with the results of the function applied to each element,
 })
 
-console.log(newNums);   
+// console.log(newNums);   
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> chaining method <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+let newNumber = num.map((num) => num * 10)
+    .map((num) => num + 1).filter((num) => {
+        return num >= 40
+    })
+console.log(newNumber);
