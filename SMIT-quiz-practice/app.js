@@ -176,3 +176,10 @@ console.log(str.charAt(6));
 // B) toInteger()
 // C) parseFloat()
 // D) convertInt()
+
+// Q18: What will parseFloat("12.34abc") return?
+
+// A) 12.34 => correct 
+// B) 12
+// C) 0
+// D) NaN 
