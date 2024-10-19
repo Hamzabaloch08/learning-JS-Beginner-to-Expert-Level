@@ -161,3 +161,18 @@ console.log(str.charAt(6));
 // D) Math.randomNumber()
 
 
+// Q16: How can you generate a random number between 1 and 10 (inclusive)? A) Math.random() * 10?
+
+// B) Math.floor(Math.random() * 10) + 1 => correct
+// C) Math.random() + 10
+// D) Math.ceil(Math.random() * 10)
+
+
+// 28. Converting Strings to Integers and Decimals
+
+// Q17: Which function is used to convert a string to an integer in JavaScript?
+
+// A) parseInt() => correct
+// B) toInteger()
+// C) parseFloat()
+// D) convertInt()
