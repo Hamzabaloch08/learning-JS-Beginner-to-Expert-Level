@@ -284,7 +284,7 @@ console.log(today.getMonth());
 //chapter
 // Functions
 
-// What is the correct syntax for defining a function in JavaScript?
+// What is the correct syntax for defining a function in JavaScript
 
 // A) function myFunction: { }
 // B) function myFunction() { }
