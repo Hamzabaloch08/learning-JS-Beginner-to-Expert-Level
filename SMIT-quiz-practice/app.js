@@ -44,9 +44,28 @@
 
 // Q4: What will be the output of the following code?
 
-// console.log("Hello".toUpperCase());
+console.log("Hello".toUpperCase());
 
 // A) hello
 // B) HELLO
 // C) Hello
 // D) hello world
+
+// 22. Strings: Measuring Length and Extracting Parts
+
+// Q5: Which property is used to find the length of a string in JavaScript?
+
+// A) length
+// B) size
+// C) lengthOf
+// D) sizeOf
+
+// Q6: What will be the output of the following code?
+
+let string = "JavaScript Programming";
+console.log(string.slice(0, 10));
+
+// A) JavaScript
+// B) avaScript P
+// C) JavaScript
+// D) Java
