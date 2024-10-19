@@ -179,7 +179,17 @@ console.log(str.charAt(6));
 
 // Q18: What will parseFloat("12.34abc") return?
 
-// A) 12.34 => correct 
+// A) 12.34 => correct
 // B) 12
 // C) 0
 // D) NaN 
+
+
+// 29. Converting Strings to Numbers and Numbers to Strings
+
+// Q19: How do you convert the number 100 into a string in JavaScript?
+
+// A) 100.toString()
+// B) String(100)
+// C) 100.convertToString()
+// D) Both A and B => correct
