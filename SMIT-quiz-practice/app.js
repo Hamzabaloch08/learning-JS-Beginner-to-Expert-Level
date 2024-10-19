@@ -46,7 +46,7 @@
 
 // Q4: What will be the output of the following code?
 
-// console.log("Hello".toUpperCase());
+console.log("Hello".toUpperCase());
 
 // A) hello
 // B) HELLO => correct
@@ -87,8 +87,8 @@
 
 // Q8: What will the following code output?
 
-// let sentence = "JavaScript is amazing";
-// console.log(sentence.indexOf('amazing'));
+let sentence1 = "JavaScript is amazing";
+console.log(sentence.indexOf('amazing'));
 
 // A) -1
 // B) 14 => correct
@@ -110,8 +110,8 @@
 
 // Q10: What will the following code output?
 
-// let str = "Hello World";
-// console.log(str.charAt(6));
+let str = "Hello World";
+console.log(str.charAt(6));
 
 
 //chapter
@@ -127,15 +127,15 @@
 
 // Q12: What will the output of this code be?
 
-// let sentence = "I like apples, apples is tasty";
-// console.log(sentence.replace("apples", "oranges"));
+let sentence = "I like apples, apples is tasty";
+console.log(sentence.replace("apples", "oranges"));
 
 // A) I like apples => correct
 // B) I like oranges
 // C) I like fruits
 // D) I like Oranges
 
-// console.log(sentence.replaceAll("apples", "oranges"));
+console.log(sentence.replaceAll("apples", "oranges"));
 
 
 //chapter
@@ -208,8 +208,8 @@
 
 // Q20: What is the output of the following code?
 
-// let num = 100;
-// console.log(num.toString());
+let num1 = 100;
+console.log(num.toString());
 
 // A) 100 (as a string) => correct
 // B) 100 (as a number)
@@ -230,8 +230,8 @@
 
 // Q22: What will the following code output?
 
-// let num = 5.6789;
-// console.log(num.toFixed(2));  // Output: 5.68
+let num = 5.6789;
+console.log(num.toFixed(2));  // Output: 5.68
 
 // A) 5.67
 // B) 5.678
