@@ -1,1 +1,1 @@
-const xhr = ne XMLHttpRequest()
+const xhr = new XMLHttpRequest()
