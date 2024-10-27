@@ -1,0 +1,83 @@
+const promiseOne = new Promise((resolve, reject) => {
+    // do an async task 
+    // DB calls, cryptography, network
+    setTimeout(() => {
+        console.log('Async task complete')
+        resolve()
+    }, 1000)
+});
+
+promiseOne.then(() => {
+    console.log('Promise consume')
+});
+
+
+
+
+
+
+new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('Async task 2')
+        resolve()
+    }, 1000)
+}).then(() => {
+    console.log('Promise consume 2')
+})
+
+
+
+
+
+
+
+
+
+const promiseThree = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve({
+            userName: 'hb07',
+            password: '12345678900',
+            emailAddress: 'example@gmail.com',
+            userAge: 17,
+            followers: 659,
+            following: 233
+        });
+    }, 1000)
+})
+
+promiseThree.then((userData) => {
+    console.log(`userName => ${userData.userName}\nuserpassword is => ${userData.password}`)
+})
+
+
+
+
+
+
+
+
+const promiseFour = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let error = false
+        if (!error) {
+            resolve({
+                userName: 'hb07',
+                password: '12345678900',
+                emailAddress: 'example@gmail.com',
+                userAge: 17,
+                followers: 659,
+                following: 233
+            })
+        } else {
+            reject('ERROR: Something went wrong')
+        }
+    }, 1000)
+})
+promiseFour.then((userData) => {
+    return userData.userName;
+}).then((userName) => {
+    console.log(`userName => ${userName}`);
+}).catch((error) => {
+    console.log(error)
+}).finally(() => console.log('The promise is either resolve or rejected'))
