@@ -91,10 +91,10 @@ const promiseFive = new Promise((resolve, reject) => {
                 following: 233
             })
         } else {
-            reject('ERROR: JS went wrong')
+            reject('ERROR: JS went wrong');
         }
     }, 1000)
-});
+})
 
 async function consumePromiseFive() {
     try {
