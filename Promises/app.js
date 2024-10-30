@@ -72,7 +72,7 @@
 //     console.log(`userName => ${userName}`);
 // }).catch((error) => {
 //     console.log(error)
-// }).finally(() => console.log('The promise is either resolve or rejected'))
+// }).finally(() => console.log('The promise is either resolve or rejected'));
 
 
 
@@ -95,6 +95,7 @@ const promiseFive = new Promise((resolve, reject) => {
         }
     }, 1000)
 });
+
 async function consumePromiseFive() {
     try {
         const responce = await promiseFive
@@ -103,4 +104,5 @@ async function consumePromiseFive() {
         console.log('ERROR: error detected in promise five ');
     }
 }
+
 consumePromiseFive();
