@@ -15,7 +15,6 @@
 
 
 
-
 // new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //         console.log('Async task 2')
@@ -24,10 +23,6 @@
 // }).then(() => {
 //     console.log('Promise consume 2')
 // })
-
-
-
-
 
 
 
@@ -49,6 +44,7 @@
 // promiseThree.then((userData) => {
 //     console.log(`userName => ${userData.userName}\nuserpassword is => ${userData.password}`)
 // })
+
 
 
 
@@ -80,6 +76,8 @@
 
 
 
+
+
 const promiseFive = new Promise((resolve, reject) => {
     setTimeout(() => {
         let error = false
@@ -96,7 +94,7 @@ const promiseFive = new Promise((resolve, reject) => {
             reject('ERROR: JS went wrong')
         }
     }, 1000)
-})
+});
 async function consumePromiseFive() {
     try {
         const responce = await promiseFive
