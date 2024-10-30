@@ -53,10 +53,6 @@
 
 
 
-
-
-
-
 // const promiseFour = new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //         let error = false
@@ -84,11 +80,6 @@
 
 
 
-
-
-
-
-
 const promiseFive = new Promise((resolve, reject) => {
     setTimeout(() => {
         let error = false
@@ -106,7 +97,6 @@ const promiseFive = new Promise((resolve, reject) => {
         }
     }, 1000)
 })
-
 async function consumePromiseFive() {
     try {
         const responce = await promiseFive
@@ -115,5 +105,4 @@ async function consumePromiseFive() {
         console.log('ERROR: error detected in promise five ');
     }
 }
-
 consumePromiseFive();
