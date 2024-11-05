@@ -130,9 +130,5 @@ fetch('https://api.github.com/users/Hamzabaloch08')
     .then((response) => {
         return response.json();
     })
-    .then((data)=>{
-        console.log(data)
-    })
-    .catch((error)=>{
-        console.log(`Error: ${error}`)
-    });
+    .then((data) => console.log(data))
+    .catch((error) => console.log(`Error: ${error}`));
