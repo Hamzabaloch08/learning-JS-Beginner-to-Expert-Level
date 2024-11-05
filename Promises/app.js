@@ -78,31 +78,51 @@
 
 
 
-const promiseFive = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        let error = false
-        if (!error) {
-            resolve({
-                userName: 'li.39',
-                password: '0123456789',
-                emailAddress: 'example07@gmail.com',
-                userAge: 19,
-                followers: 659,
-                following: 233
-            })
-        } else {
-            reject('ERROR: JS went wrong');
-        }
-    }, 1000)
-})
+// const promiseFive = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         let error = false
+//         if (!error) {
+//             resolve({
+//                 userName: 'li.39',
+//                 password: '0123456789',
+//                 emailAddress: 'example07@gmail.com',
+//                 userAge: 19,
+//                 followers: 659,
+//                 following: 233
+//             })
+//         } else {
+//             reject('ERROR: JS went wrong');
+//         }
+//     }, 1000)
+// })
 
-async function consumePromiseFive() {
-    try {
-        const responce = await promiseFive
-        console.log(responce);
-    } catch (error) {
-        console.log('ERROR: error detected in promise five ');
-    }
-}
+// async function consumePromiseFive() {
+//     try {
+//         const responce = await promiseFive
+//         console.log(responce);
+//     } catch (error) {
+//         console.log('ERROR: error detected in promise five ');
+//     }
+// }
 
-consumePromiseFive();
+// consumePromiseFive();
+
+
+
+// let getAllusers = async () => {
+//     try {
+//         const responce = await fetch('https://jsonplaceholder.typicode.com/users');
+//         const data = await responce.json();
+//         console.log(data);
+//     }
+//     catch (error) {
+//         console.log(`E: ${error}`);
+//     }
+// }
+// getAllusers();
+
+
+
+
+
+
