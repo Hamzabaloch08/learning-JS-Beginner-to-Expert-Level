@@ -14,4 +14,12 @@ Object literal {}
 
 - Constructor function
 - Prototypes
-- 
+- Classes
+- Instances (new, this)
+
+## 4 pillars
+Abstraction => hiding details.
+Encapsulaton => wrap up the data, whatever mathod function you need.
+Inheritence
+Polymorphism 
+
