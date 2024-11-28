@@ -1,5 +1,4 @@
 // es6
-
 class user {
     constructor(username, email, password) {
         this.username = username;
