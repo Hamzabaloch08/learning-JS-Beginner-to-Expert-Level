@@ -36,7 +36,7 @@ function User(email, password) {
 
     Object.defineProperty(this, 'password', {
         get: function () {
-            this._password.toUpperCase();
+            return this._password.toUpperCase();
         },
 
         set: function (value) {
@@ -45,6 +45,6 @@ function User(email, password) {
     })
 }
 
-const william = new User('wil@.co', 'will.123');
+const william = new User('wil@.co', 'will.078');
 console.log(william.email);
 console.log(william.password);
