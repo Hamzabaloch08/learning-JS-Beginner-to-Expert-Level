@@ -60,27 +60,27 @@
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> get set on Object
 
-const User = {
-    _email: 'jhn@.pk',
-    _password: "john.008",
+// const User = {
+//     _email: 'jhn@.pk',
+//     _password: "john.008",
 
-    get email() {
-        return this._email.toUpperCase();
-    },
+//     get email() {
+//         return this._email.toUpperCase();
+//     },
 
-    set email(value) {
-        this.email = value
-    },
+//     set email(value) {
+//         this.email = value
+//     },
 
-    get password() {
-        return this._password.toUpperCase();
-    },
+//     get password() {
+//         return this._password.toUpperCase();
+//     },
 
-    set password(value) {
-        this.password = value
-    }
-}
+//     set password(value) {
+//         this.password = value
+//     }
+// }
 
-const john = Object.create(User);
-console.log(john.email)
-console.log(john.password)
+// const john = Object.create(User);
+// console.log(john.email)
+// console.log(john.password)
